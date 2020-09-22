@@ -5,6 +5,6 @@ phi = 4
 epochs = 50
 steps = 1000
 batch_size = 2
-weight_path = 'weights/D4/model6_0.0057.h5'
+weight_path = 'imagenet'
 image_size = (512, 640, 768, 896, 1024, 1280, 1408)[phi]
 classes = {'DAMAGE': 0}
