@@ -11,7 +11,7 @@
 * Run `python setup.py build_ext --inplace`
 * Change `classes` variable in `utils\config.py` based on your dataset
 * Run `python train.py` for training using `imagenet` pretrained weights
-* After training is finished, change `weight_path` variable value to trained weight path, example `snapshot=weights/D4/model1_0.1.h5`
+* After training is finished, change `weight_path` variable value to trained weight path, example `weight_path=weights/D4/model1_0.1.h5`
 * Run `python train.py` for final training
 
 #### Test
