@@ -1,0 +1,10 @@
+data_dir = '../Dataset/Dubai'
+image_dir = 'IMAGES'
+label_dir = 'LABELS'
+phi = 4
+epochs = 50
+steps = 1000
+batch_size = 2
+weight_path = 'weights/D4/model6_0.0057.h5'
+image_size = (512, 640, 768, 896, 1024, 1280, 1408)[phi]
+classes = {'DAMAGE': 0}
