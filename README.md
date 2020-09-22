@@ -2,7 +2,7 @@
 
 [EfficientDet](https://arxiv.org/pdf/1911.09070.pdf) implementation for Object Detection using Tensorflow2
 
-#### Generate Anchor
+#### Generate Anchor (Optional)
 * Generate optimal anchor for your dataset using [Anchor Optimizer](https://github.com/martinzlocha/anchor-optimization)
 * Change the values of `ratios` and `scales` attribute of `AnchorParameters` class in `utils/util.py`
 
